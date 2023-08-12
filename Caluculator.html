@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(12, 56, 56);
+            width: 270px;
+            height: 180px;
+        }
+
+        .screen{
+            padding-left: 33px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .buttons{
+            display: flex;
+            flex-direction: column;
+            background-color: blue;
+        }
+
+        .first-row{
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .second-row{
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 10px;
+        }
+
+        .third-row{
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 10px;
+        }
+
+        .fourth-fifth-row{
+            display: flex;
+            padding-bottom: 10px;
+        }
+
+        .four-five-row{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .four-row{
+            height: 20px;
+            width: 205px;
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 10px;
+        }
+
+        .five-row{
+            display: flex;
+            justify-content: space-evenly;
+            height: 20px;
+            width: 205px;
+            padding-top: 10px;
+        }
+
+        .equal{
+        }
+
+        .but{
+            height: 40px;
+            width: 200px;
+        }
+
+        .bot{
+            height: 30px;
+            width: 50px;
+        }
+
+        .eq{
+            height: 70px;
+            width: 50px;
+        }
+
+        .zero{
+            height: 30px;
+            width: 115px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="screen">
+            <input type="text" id="t1" class="but">
+        </div>
+        <div class="buttons">
+            <div class="first-row">
+                <div>
+                    <input type="button" class="bot" value="MC" name="b1" id="B1">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="M+" name="b2" id="B2">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="  /  " id="B3" name="b3">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="  X  " name="b4" name="B4">
+                </div>
+            </div>
+            <div class="second-row">
+                <div>
+                    <input type="button" class="bot" value="  7  " name="b5" id="B5">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="  8  " name="b6" id="B6">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="  9  " id="B7" name="b7">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="  -  " name="b8" name="B8">
+                </div>
+            </div>
+            <div class="third-row">
+                <div>
+                    <input type="button" class="bot" value="  4  " name="b9" id="B9">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="  5  " name="b10" id="B10">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="  6  " id="B11" name="b11">
+                </div>
+                <div>
+                    <input type="button" class="bot" value="  +  " name="b12" name="B12">
+                </div>
+            </div>
+            <div class="fourth-fifth-row">
+                <div class="four-five-row">
+                    <div class="four-row">
+                        <div>
+                            <input type="button" class="bot" value="  1  " name="b1" id="B9">
+                        </div>
+                        <div>
+                            <input type="button" class="bot" value="  2  " name="b10" id="B10">
+                        </div>
+                        <div>
+                            <input type="button" class="bot" value="  3  " id="B11" name="b11">
+                        </div>
+                    </div>
+                    <div class="five-row">
+                        <div>
+                            <input type="button" class="zero" value="  0  " name="b9" id="B9">
+                        </div>
+                        <div>
+                            <input type="button" class="bot" value="  .  " name="b10" id="B10">
+                        </div>
+                    </div>
+                </div>
+                <div class="equal">
+                    <input type="button" class="eq" value="=" height="20px" >
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
